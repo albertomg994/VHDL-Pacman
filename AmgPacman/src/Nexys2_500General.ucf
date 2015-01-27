@@ -1,0 +1,56 @@
+## This file is a general .ucf for Nexys2 rev A board
+## Clock pin for Nexys 2 Board
+NET clk_50MHz         LOC = "B8";
+
+## 7 segment display
+NET disp7seg_data<0>      LOC = "L18";
+NET disp7seg_data<1>      LOC = "F18";
+NET disp7seg_data<2>      LOC = "D17";
+NET disp7seg_data<3>      LOC = "D16";
+NET disp7seg_data<4>      LOC = "G14";
+NET disp7seg_data<5>      LOC = "J17";
+NET disp7seg_data<6>      LOC = "H14";
+
+NET disp7seg_sel<0>       LOC = "F17";
+NET disp7seg_sel<1>       LOC = "H17";
+NET disp7seg_sel<2>       LOC = "C18";
+NET disp7seg_sel<3>       LOC = "F15";
+
+## Leds
+NET ram_data_leds<0>      LOC = "J14";
+NET ram_data_leds<1>      LOC = "J15";
+NET ram_data_leds<2>      LOC = "K15";
+#NET "Led<3>"      		  LOC = "K14";
+#NET "Led<4>"      		  LOC = "E17";
+#NET "Led<5>"      		  LOC = "P15";
+#NET "Led<6>"      		  LOC = "F4";
+NET init_fin_led      	  LOC = "R4";
+
+## Switches
+NET sw_debug<0>    LOC = "G18";
+NET sw_debug<1>    LOC = "H18";
+#NET "sw<2>"       LOC = "K18";
+#NET "sw<3>"       LOC = "K17";
+#NET "sw<4>"       LOC = "L14";
+#NET "sw<5>"       LOC = "L13";
+#NET "sw<6>"       LOC = "N17";
+NET rst       	   LOC = "R17";
+
+## Buttons
+NET init_ini      LOC = "B18";
+NET bt_db		  LOC = "D18";
+#NET bt_rand      LOC = "E18";
+#NET "btn<3>"     LOC = "H13";
+
+## VGA Connector 
+NET vga_red<0>   LOC = "R9";
+NET vga_red<1>   LOC = "T8";
+NET vga_red<2>   LOC = "R8";
+NET vga_green<0> LOC = "N8";
+NET vga_green<1> LOC = "P8";
+NET vga_green<2> LOC = "P6";
+NET vga_blue<0>  LOC = "U5";
+NET vga_blue<1>  LOC = "U4";
+
+NET hsync       LOC = "T4";
+NET vsync       LOC = "U3";
