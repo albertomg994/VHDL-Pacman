@@ -1,5 +1,5 @@
 ## This file is a general .ucf for Nexys2 rev A board
-## Clock pin for Nexys 2 Board
+## Pin de reloj para la Nexys2
 NET clk_50MHz         LOC = "B8";
 
 ## 7 segment display
