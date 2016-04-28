@@ -14,6 +14,7 @@ Algunos de los componentes principales a desarrollar en la práctica fueron:
 * Un eliminador de rebotes
 * Una memoria RAM
 * Un controlador VGA, encargado de mandar la señal a un monitor externo.
+* La práctica original estaba integrada también con el módulo de sonido elaborado por otro compañero, pero por temas de autoría este no se encuentra en el repositorio.
 
 <p align="center">
   <img src="fpga.jpg" width=500></center>
