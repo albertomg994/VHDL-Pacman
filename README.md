@@ -15,4 +15,6 @@ Algunos de los componentes principales a desarrollar en la práctica fueron:
 * Una memoria RAM
 * Un controlador VGA, encargado de mandar la señal a un monitor externo.
 
-<center><img src="fpga.jpg" width=300></center>
+<p align="center">
+  <img src="fpga.jpg" width=500></center>
+</p>
